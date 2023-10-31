@@ -18,8 +18,8 @@ use PharIo\Manifest\Author;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    echo "sdinfndsnvsd";
+});
 
 // Auth::routes();
