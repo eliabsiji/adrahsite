@@ -19,7 +19,7 @@ use PharIo\Manifest\Author;
 */
 
 Route::get('/', function () {
-    echo "sdinfndsnvsd";
+    echo "awaiting website theme injection...";
 });
 
 // Auth::routes();
