@@ -31,7 +31,7 @@
                     <div class="swiper-slide">
                         <div class="swiper-slide-block">
                             <div class="swiper-slide-block-img" data-swiper-parallax-y="70%">
-                                <a href="#"> <img src="{{ asset('html/images/gallery/21.JPG') }}" alt=""> </a>
+                                <a href="#"> <img src="{{ asset('html/images/slider/4.jpg') }}" alt=""> </a>
                             </div>
                             <div class="swiper-slide-block-text">
                                 <h2 data-swiper-parallax-x="-60%" class="next-main-title">Jenna & James</h2>
