@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\MainController;
 
 
 
@@ -18,8 +19,6 @@ use PharIo\Manifest\Author;
 |
 */
 
-Route::get('/', function () {
-    echo "awaiting website theme injection...";
-});
+Route::get('/',[MainController::class, 'index']);
 
 // Auth::routes();

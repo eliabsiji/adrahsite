@@ -609,7 +609,7 @@ a {
     color: #999;
 }
 .nav-scroll .logo-img {
-    width: 115px;
+    width: 90px;
     padding: 15px 0;
 }
 .nav-scroll .logo-img {
@@ -677,7 +677,7 @@ a {
 }
 .logo-img {
     padding: 20px 0;
-    width: 115px;
+    width: 90px;
     text-align: center;
 }
 .dropdown .nav-link i {
@@ -751,7 +751,7 @@ a {
         opacity: 1;
         visibility: visible;
         transform: translateY(0);
-    }    
+    }
 }
 @media screen and (max-width: 991px) {
     .navbar {
@@ -773,7 +773,7 @@ a {
         background-color: transparent;
     }
     .nav-scroll .logo-img {
-        width: 115px;
+        width: 90px;
     }
     .navbar .logo {
         text-align: left;
@@ -782,7 +782,7 @@ a {
     .nav-scroll .logo {}
     .logo-img {
         margin-bottom: 0px;
-        width: 115px;
+        width: 90px;
         padding: 0;
     }
     .navbar button {
@@ -817,7 +817,7 @@ a {
     }
     .nav-scroll .navbar-collapse .active {
         color: #9c5451 !important;
-    }   
+    }
     .navbar .dropdown-menu .dropdown-item {
         padding: 0 15px;
         font-size: 15px;
@@ -2405,7 +2405,7 @@ ul.team-info-social li {
     font-size: 120px;
     line-height: 90px;
     }
-    
+
     .pozo-copyright {
     text-align: left;
     }
