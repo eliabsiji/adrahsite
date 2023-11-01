@@ -7,7 +7,7 @@
                     <div class="swiper-slide">
                         <div class="swiper-slide-block">
                             <div class="swiper-slide-block-img animate-box" data-animate-effect="fadeInLeft" data-swiper-parallax-y="70%">
-                                <a href="project-page.html"> <img src="<?php echo e(asset('html/images/slider/2.jpg')); ?>" alt=""> </a>
+                                <a href="#"> <img src="<?php echo e(asset('html/images/slider/2.jpg')); ?>" alt=""> </a>
                             </div>
                             <div class="swiper-slide-block-text animate-box" data-animate-effect="fadeInRight">
                                 <h2 data-swiper-parallax-x="-60%" class="next-main-title">Anna Lussen</h2>
@@ -19,7 +19,7 @@
                     <div class="swiper-slide">
                         <div class="swiper-slide-block">
                             <div class="swiper-slide-block-img" data-swiper-parallax-y="70%">
-                                <a href="project-page-2.html"><img src="<?php echo e(asset('html/images/slider/1.jpg')); ?>" alt=""></a>
+                                <a href="#"><img src="<?php echo e(asset('html/images/slider/1.jpg')); ?>" alt=""></a>
                             </div>
                             <div class="swiper-slide-block-text">
                                 <h2 data-swiper-parallax-x="-60%" class="next-main-title">Tomas & Isabel</h2>
@@ -31,7 +31,7 @@
                     <div class="swiper-slide">
                         <div class="swiper-slide-block">
                             <div class="swiper-slide-block-img" data-swiper-parallax-y="70%">
-                                <a href="project-page-2.html"> <img src="<?php echo e(asset('html/images/gallery/21.JPG')); ?>" alt=""> </a>
+                                <a href="#"> <img src="<?php echo e(asset('html/images/gallery/21.JPG')); ?>" alt=""> </a>
                             </div>
                             <div class="swiper-slide-block-text">
                                 <h2 data-swiper-parallax-x="-60%" class="next-main-title">Jenna & James</h2>
