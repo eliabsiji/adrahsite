@@ -36,44 +36,46 @@
             </div>
             <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
                 <figure>
-                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/9.jpg')); ?>" data-caption="Quisque in felis"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/26.jpg')); ?>" alt="" /> </a>
+                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/9.jpg')); ?>" data-caption="Adrah Studios Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/9.jpg')); ?>" alt="" /> </a>
                 </figure>
                 <figure>
-                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/10.jpg')); ?>" data-caption="Pellentesque habitant"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/25.jpg')); ?>" alt="" /> </a>
+                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/10.jpg')); ?>" data-caption="Adrah Studio Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/10.jpg')); ?>" alt="" /> </a>
                 </figure>
                 <figure>
-                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/11.jpg')); ?>" data-caption="Curabitur convallis"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/11.jpg')); ?>" alt="" /> </a>
+                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/11.jpg')); ?>" data-caption="Adrah Studios Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/11.jpg')); ?>" alt="" /> </a>
                 </figure>
                 <figure>
-                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/21.jpg')); ?>" data-caption="Quisque in dolor"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/24.jpg')); ?>" alt="" /> </a>
+                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/21.jpg')); ?>" data-caption="Adrah Studios"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/21.jpg')); ?>" alt="" /> </a>
                 </figure>
             </div>
-            <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
-                <figure>
-                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/12.jpg')); ?>" data-caption="Aliquam non luctus"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/23.jpg')); ?>" alt="" /> </a>
-                </figure>
-                <figure>
-                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/22.jpg')); ?>" data-caption="Quality in felis"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/23.jpg')); ?>" alt="" /> </a>
-                </figure>
-                <figure>
-                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/23.jpg')); ?>" data-caption="Vivamus a nisi"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/22.jpg')); ?>" alt="" /> </a>
-                </figure>
-                <figure>
-                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/17.jpg')); ?>" data-caption="Vivamus a nisi"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/22.jpg')); ?>" alt="" /> </a>
-                </figure>
-            </div>
+
             <div class="col-md-4 d-none d-lg-block animate-box" data-animate-effect="fadeInUp">
                 <figure>
-                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/13.jpg')); ?>" data-caption="Mauris pretium"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/21.jpg')); ?>" alt="" /> </a>
+                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/13.jpg')); ?>" data-caption="Adrah Studios Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/13.jpg')); ?>" alt="" /> </a>
                 </figure>
                 <figure>
-                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/14.jpg')); ?>" data-caption="Nunc blandit purus"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/20.jpg')); ?>" alt="" /> </a>
+                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/14.jpg')); ?>" data-caption="Adrah Studios Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/14.jpg')); ?>" alt="" /> </a>
                 </figure>
                 <figure>
-                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/24.jpg')); ?>" data-caption="Nunc ultrices tellus"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/18.jpg')); ?>" alt="" /> </a>
+                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/24.jpg')); ?>" data-caption="Adrah Studios Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/24.jpg')); ?>" alt="" /> </a>
                 </figure>
                 <figure>
-                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/15.jpg')); ?>" data-caption="Orci varius natoque"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/19.jpg')); ?>" alt="" /> </a>
+                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/19.jpg')); ?>" data-caption="Adrah Studios Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/19.jpg')); ?>" alt="" /> </a>
+                </figure>
+            </div>
+
+            <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/12.jpg')); ?>" data-caption="Adrah Studios Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/12.jpg')); ?>" alt="" /> </a>
+                </figure>
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/16.jpg')); ?>" data-caption="Adrah Studio Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/16.jpg')); ?>" alt="" /> </a>
+                </figure>
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/25.jpg')); ?>" data-caption="Adrah Studios Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/25.jpg')); ?>" alt="" /> </a>
+                </figure>
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/17.jpg')); ?>" data-caption="Adrah Studios Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/17.jpg')); ?>" alt="" /> </a>
                 </figure>
             </div>
         </div>
@@ -85,33 +87,98 @@
                     <div class="row align-items-stretch pozo-photos" id="pozo-section-photos">
                         <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
                             <figure>
-                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/25.jpg')); ?>" data-caption="Vestibulum leo velit"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/17.jpg')); ?>" alt="" /> </a>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/26.jpg')); ?>" data-caption="Adrah Studios Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/26.jpg')); ?>" alt="" /> </a>
                             </figure>
                             <figure>
-                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/26.jpg')); ?>" data-caption="Etiam imperdiet hendrerit"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/16.jpg')); ?>" alt="" /> </a>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/27.jpg')); ?>" data-caption="Adrah Studios Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/27.jpg')); ?>" alt="" /> </a>
                             </figure>
                         </div>
                         <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
                             <figure>
-                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/16.jpg')); ?>" data-caption="Nulla turpis elementum"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/13.jpg')); ?>" alt="" /> </a>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/51.jpg')); ?>" data-caption="Adrah Studio Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/51.jpg')); ?>" alt="" /> </a>
+                            </figure>
+
+                        </div>
+                        <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/28.jpg')); ?>" data-caption="Adrah Studio Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/28.jpg')); ?>" alt="" /> </a>
                             </figure>
                             <figure>
-                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/17.jpg')); ?>" data-caption="Pellentesque habitant"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/15.jpg')); ?>" alt="" /> </a>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/29.jpg')); ?>" data-caption="Adrah Studio Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/29.jpg')); ?>" alt="" /> </a>
+                            </figure>
+
+                        </div>
+                        <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/30.jpg')); ?>" data-caption="Adrah Studio Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/32.jpg')); ?>" alt="" /> </a>
+                            </figure>
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/31.jpg')); ?>" data-caption="Adrah Studio Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/31.jpg')); ?>" alt="" /> </a>
+                            </figure>
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/35.jpg')); ?>" data-caption="Adrah Studio Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/35.jpg')); ?>" alt="" /> </a>
+                            </figure>
+                        </div>
+                        <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/33.jpg')); ?>" data-caption="Adrah Studio Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/33.jpg')); ?>" alt="" /> </a>
+                            </figure>
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/34.jpg')); ?>" data-caption="Adrah Studio Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/34.jpg')); ?>" alt="" /> </a>
+                            </figure>
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/36.jpg')); ?>" data-caption="Adrah Studio Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/36.jpg')); ?>" alt="" /> </a>
                             </figure>
                         </div>
                         <div class="col-md-4 d-none d-lg-block animate-box" data-animate-effect="fadeInUp">
                             <figure>
-                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/14.jpg')); ?>" data-caption="Quisque in felis"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/14.jpg')); ?>" alt="" /> </a>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/35.jpg')); ?>" data-caption="Adrah Studios Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/35.jpg')); ?>" alt="" /> </a>
                             </figure>
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/50.jpg')); ?>" data-caption="Adrah Studios Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/50.jpg')); ?>" alt="" /> </a>
+                            </figure>
+
                         </div>
                     </div>
+                    <div class="row align-items-stretch pozo-photos" id="pozo-section-photos">
+                        <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/22.jpg')); ?>" data-caption="Adrah Studios Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/22.jpg')); ?>" alt="" /> </a>
+                            </figure>
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/23.jpg')); ?>" data-caption="Adrah Studios Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/23.jpg')); ?>" alt="" /> </a>
+                            </figure>
+                        </div>
+                        <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/15.jpg')); ?>" data-caption="Adrah Studio Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/15.jpg')); ?>" alt="" /> </a>
+                            </figure>
+
+                        </div>
+                        <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/37.jpg')); ?>" data-caption="Adrah Studio Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/28.jpg')); ?>" alt="" /> </a>
+                            </figure>
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/29.jpg')); ?>" data-caption="Adrah Studio Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/29.jpg')); ?>" alt="" /> </a>
+                            </figure>
+
+                        </div>
+
+                    </div>
                 </div>
+
+
+
+
                 <!-- add more -->
                 <div class="pozo-more-wrapper txt-center animate-box" data-animate-effect="fadeInUp">
                     <a href="index.html#" class="pozo-more-trigger flex"> <span class="plus flex-center">&nbsp;</span> </a>
                 </div>
             </div>
         </div>
+
+
     </div>
 </div>
 
