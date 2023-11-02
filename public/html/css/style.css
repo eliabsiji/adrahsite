@@ -2430,7 +2430,7 @@ ul.team-info-social li {
         bottom: 0px;
         left: 0;
         z-index: 2;
-        background: linear-gradient(to top, #191919, rgba(25, 25, 25, 0));
+        /* background: linear-gradient(to top, #191919, rgba(25, 25, 25, 0)); */
     }
     .pozo-section-slider .next-container-center {
         max-width: 1245px;

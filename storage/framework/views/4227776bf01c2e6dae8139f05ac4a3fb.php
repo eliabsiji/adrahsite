@@ -5,16 +5,16 @@
             <div class="col-md-8">
                 <ul class="pozo-social-icons">
                     <li class="pozo-social-icons-item">
-                        <a class="pozo-social-link" href="index.html#"> <span class="pozo-social-icon fa fa-facebook-f"></span> </a>
+                        <a class="pozo-social-link" href="https://www.facebook.com/adrahstudios"> <span class="pozo-social-icon fa fa-facebook-f"></span> </a>
                     </li>
                     <li class="pozo-social-icons-item">
                         <a class="pozo-social-link" href="index.html#"> <span class="pozo-social-icon fa fa-twitter"></span> </a>
                     </li>
                     <li class="pozo-social-icons-item">
-                        <a class="pozo-social-link" href="index.html#"> <span class="pozo-social-icon fa fa-instagram"></span> </a>
+                        <a class="pozo-social-link" href="https://www.instagram.com/adrahstudios/"> <span class="pozo-social-icon fa fa-instagram"></span> </a>
                     </li>
                     <li class="pozo-social-icons-item">
-                        <a class="pozo-social-link" href="index.html#"> <span class="pozo-social-icon fa fa-behance"></span> </a>
+                        <a class="pozo-social-link" href="https://www.behance.net/adrahstudios"> <span class="pozo-social-icon fa fa-behance"></span> </a>
                     </li>
                 </ul>
             </div>

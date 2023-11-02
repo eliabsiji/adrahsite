@@ -9,7 +9,7 @@
                             <div class="swiper-slide-block-img animate-box" data-animate-effect="fadeInLeft" data-swiper-parallax-y="70%">
                                 <a href="#"> <img src="<?php echo e(asset('html/images/slider/2.jpg')); ?>" alt=""> </a>
                             </div>
-                            <div class="swiper-slide-block-text animate-box" data-animate-effect="fadeInRight">
+                            <div class=" animate-box" data-animate-effect="fadeInRight">
                                 <h2 data-swiper-parallax-x="-60%" class="next-main-title">Anna Lussen</h2>
                                 <h3 data-swiper-parallax-x="-50%" class="next-main-subtitle">Model, Moscow</h3>
                                 <p data-swiper-parallax-x="-40%" class="next-paragraph">Quisque pellentesque odio ut libero iaculis, nec fringilla sapien tincidunt. Sed laoree nulvinar ex sed estas in duru rana.</p> <a data-swiper-parallax-x="-30%" style="z-index: 5;" class="next-link" href="project-page.html">View Details</a> <span data-swiper-parallax-y="60%" class="next-number">1</span>
@@ -33,11 +33,7 @@
                             <div class="swiper-slide-block-img" data-swiper-parallax-y="70%">
                                 <a href="#"> <img src="<?php echo e(asset('html/images/slider/4.jpg')); ?>" alt=""> </a>
                             </div>
-                            <div class="swiper-slide-block-text">
-                                <h2 data-swiper-parallax-x="-60%" class="next-main-title">Jenna & James</h2>
-                                <h3 data-swiper-parallax-x="-50%" class="next-main-subtitle">Wedding, London</h3>
-                                <p data-swiper-parallax-x="-40%" class="next-paragraph">Quisque pellentesque odio ut libero iaculis, nec fringilla sapien tincidunt. Sed laoree nulvinar ex sed estas in duru rana.</p> <a data-swiper-parallax-x="-30%" class="next-link" href="https://1.envato.market/e6o9j" target="_blank">Buy Now</a> <span data-swiper-parallax-y="60%" class="next-number">3</span>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
