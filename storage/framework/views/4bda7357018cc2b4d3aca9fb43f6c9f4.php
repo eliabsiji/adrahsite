@@ -1,4 +1,32 @@
 <?php $__env->startSection('content'); ?>
+<div class="container">
+    <section class="pozo-section-slider pt-130">
+        <div class="next-container-center">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-block">
+                            <div class="swiper-slide-block-img" data-swiper-parallax-y="70%">
+                                <a href="#"> <img src="<?php echo e(asset('html/images/slider/2.jpg')); ?>" alt=""> </a>
+                            </div>
+                            <div class="swiper-slide-block-text">
+                                <h2 data-swiper-parallax-x="-60%" class="next-main-title">OUR PHILOSOPHY</h2>
+
+                                <p data-swiper-parallax-x="-40%" class="next-paragraph">Our photography and videography business specializes in capturing life's most precious moments. We believe every moment is worth capturing, and we're passionate about helping our clients create lasting memories.
+                                    Contact us today to learn more about our services and how we can help you create memories that will last a lifetime.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next animate-box" data-animate-effect="fadeInRight"> <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </div>
+                <div class="swiper-button-prev animate-box" data-animate-effect="fadeInLeft"> <i class="fa fa-long-arrow-left" aria-hidden="true"></i> </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
 <!-- Gallery -->
 <div class="pozo-section">
     <div class="container">
@@ -83,6 +111,8 @@
         </div>
     </div>
 </div>
+
+
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\adrahsite\resources\views/home.blade.php ENDPATH**/ ?>
