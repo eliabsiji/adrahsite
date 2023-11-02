@@ -10,7 +10,11 @@
                             <div class="swiper-slide-block-img" data-swiper-parallax-y="70%">
                                 <a href="#"><img src="<?php echo e(asset('html/images/slider/1.jpg')); ?>" alt=""></a>
                             </div>
-                            
+                            <div class="swiper-slide-block-text">
+                                <h2 data-swiper-parallax-x="-60%" class="next-main-title">ADRAH STUDIOS</h2>
+                                <h3 data-swiper-parallax-x="-50%" class="next-main-subtitle">WELCOMES YOU...</h3>
+                                
+                            </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -18,7 +22,11 @@
                             <div class="swiper-slide-block-img" data-swiper-parallax-y="70%">
                                 <a href="#"> <img src="<?php echo e(asset('html/images/slider/4.jpg')); ?>" alt=""> </a>
                             </div>
-                            
+                            <div class="swiper-slide-block-text">
+                                <h2 data-swiper-parallax-x="-60%" class="next-main-title">ALL EVENTS</h2>
+                                <h3 data-swiper-parallax-x="-50%" class="next-main-subtitle">Wedding, Birthdays and lots more</h3>
+                                <a data-swiper-parallax-x="-30%" class="next-link" href="#" target="">Reach us now</a> <span data-swiper-parallax-y="60%" class="next-number">3</span>
+                            </div>
                         </div>
                     </div>
                 </div>
