@@ -19,7 +19,7 @@
                 </ul>
             </div>
             <div class="col-md-4">
-                <p class="pozo-copyright">© 2023 <span>AndrahStudios</span> All right reserved.</p>
+                <p class="pozo-copyright">© 2023 <span>Adrah Studios</span> All right reserved.</p>
             </div>
         </div>
     </div>
