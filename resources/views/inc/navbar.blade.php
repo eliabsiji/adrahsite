@@ -36,26 +36,11 @@
                         </li>
                     </ul>
                 </li>
-
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Gallery <i class="fa fa-angle-down"></i></a>
+                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Portfolio <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="gallery.html" class="dropdown-item"><span>Image Gallery</span></a></li>
-                        <li><a href="video.html" class="dropdown-item"><span>Video Gallery</span></a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Portfolio<i class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="pricing.html" class="dropdown-item"><span>Wedding</span></a></li>
-                        <li><a href="team.html" class="dropdown-item"><span>Event</span></a></li>
-                        <li><a href="team-details.html" class="dropdown-item"><span>Portrait</span></a></li>
+                        <li><a href="pricing.html" class="dropdown-item"><span>Weddings</span></a></li>
+                        <li><a href="team.html" class="dropdown-item"><span>Events</span></a></li>
+                        <li><a href="team-details.html" class="dropdown-item"><span>Portraits</span></a></li>
 
                     </ul>
                 </li>
@@ -63,5 +48,6 @@
                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </div>
+
     </div>
 </nav>
