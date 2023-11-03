@@ -1,5 +1,6 @@
 @extends('master')
 @section('content')
+@include('inc.sidebar')
 <div class="container">
     <section class="pozo-section-slider pt-130">
         <div class="next-container-center">

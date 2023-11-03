@@ -1,4 +1,5 @@
 <?php $__env->startSection('content'); ?>
+<?php echo $__env->make('inc.sidebar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 <div class="container">
     <section class="pozo-section-slider pt-130">
         <div class="next-container-center">

@@ -3,6 +3,12 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\GalleryController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\PortfolioController;
+
 
 
 
@@ -19,6 +25,16 @@ use PharIo\Manifest\Author;
 |
 */
 
-Route::get('/',[MainController::class, 'index']);
-
+Route::get('/',[MainController::class, 'index'])->name('home');
+Route::get('/about',[AboutController::class, 'index'])->name('about');
+Route::get('/adetunji',[AboutController::class, 'team1'])->name('team1');
+Route::get('/services',[ServicesController::class, 'index'])->name('services');
+Route::get('/pricing',[ServicesController::class, 'pricing'])->name('pricing');
+Route::get('/faqs',[FaqsController::class, 'index'])->name('faqs');
+Route::get('/imagegallery',[GallerController::class, 'index'])->name('gallery.image');
+Route::get('/videogallery',[GalleryController::class, 'video'])->name('gallery.video');
+Route::get('/weddings',[PortfolioController::class, 'weddings'])->name('portfolio.weddings');
+Route::get('/events',[PortfolioController::class, 'events'])->name('portfolio.events');
+Route::get('/portraits',[PortfolioController::class, 'portraits'])->name('portfolio.portraits');
+Route::get('/contact',[ContacController::class, 'index'])->name('contact');
 // Auth::routes();
