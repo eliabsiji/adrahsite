@@ -6,7 +6,7 @@
         <div class="row">
         <div class="col-md-7 mb-30 animate-box" data-animate-effect="fadeInUp">
             <div class="img mb-60"> <img src="{{ asset('html/images/slider/2.jpg') }}" class="img-fluid" alt=""> </div>
-            <h4>Adetunji</h4>
+            <h4>Simeon Owolabi</h4>
             <p class="mb-30">I am professional photographer based on New York, creating dreamscapes with black, white and shades in-between. I love to pause the wild, happy and real moments of life, just to hear their stories untold. Viverra tristique usto duis vitae diam neque nivamus estan.</p>
             <ul class="list-unstyled team-box-list mb-60">
                 <li>
