@@ -29,6 +29,7 @@ use PharIo\Manifest\Author;
 Route::get('/',[MainController::class, 'index'])->name('home');
 Route::get('/about',[AboutController::class, 'index'])->name('about');
 Route::get('/adetunji',[AboutController::class, 'team1'])->name('team1');
+Route::get('/simeon',[AboutController::class, 'team2'])->name('team2');
 Route::get('/services',[ServicesController::class, 'index'])->name('services');
 Route::get('/pricing',[ServicesController::class, 'pricing'])->name('pricing');
 Route::get('/faqs',[FaqsController::class, 'index'])->name('faqs');

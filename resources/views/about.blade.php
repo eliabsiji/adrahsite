@@ -48,7 +48,7 @@
                     <div class="col-md-6">
                         <div class="team-holder">
                             <div class="team-image-holder">
-                                <a href="team-details.html">
+                                <a href="{{ route('team2') }}l">
                                 <img src="{{ asset('html/images/gallery/54.jpg') }}" class="img-fluid" alt="">
                                 <div class="team-side-info">
                                     <h4 class="team-name">Simeon Owolabi </h4>
