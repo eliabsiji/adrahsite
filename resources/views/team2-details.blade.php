@@ -32,12 +32,7 @@
                 <div class="tab-pane fade show active" id="biography" role="tabpanel" aria-labelledby="vision-tab">
                     <p>Biography utate ons amet ravida haretra nuam the duru miss uctus the drana accumsan justo aliquam sit amet auctor orci done vitaerisus duise nisan sapien silver sapien.</p>
                 </div>
-                <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="mission-tab">
-                    <p>Education utate ons amet ravida haretra nuam the duru miss uctus the drana accumsan justo aliquam sit amet auctor orci done vitaerisus duise nisan sapien silver sapien.</p>
-                </div>
-                <div class="tab-pane fade" id="awards" role="tabpanel" aria-labelledby="mission-tab">
-                    <p>Awards utate ons amet ravida haretra nuam the duru miss uctus the drana accumsan justo aliquam sit amet auctor orci done vitaerisus duise nisan sapien silver sapien.</p>
-                </div>
+
             </div>
         </div>
         <div class="col-md-4 offset-md-1 animate-box" data-animate-effect="fadeInUp">
