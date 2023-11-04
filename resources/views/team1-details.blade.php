@@ -25,8 +25,7 @@
             <!-- tab -->
             <ul class="nav nav-tabs simpl-bord mt-60" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation"> <span class="nav-link active cursor-pointer" id="vision-tab" data-bs-toggle="tab" data-bs-target="#biography">Biography</span> </li>
-                <li class="nav-item" role="presentation"> <span class="nav-link cursor-pointer" id="mission-tab" data-bs-toggle="tab" data-bs-target="#education">Education</span> </li>
-                <li class="nav-item" role="presentation"> <span class="nav-link cursor-pointer" id="mission-tab" data-bs-toggle="tab" data-bs-target="#awards">Awards</span> </li>
+
             </ul>
             <div class="tab-content mb-60" id="myTabContent">
                 <div class="tab-pane fade show active" id="biography" role="tabpanel" aria-labelledby="vision-tab">
