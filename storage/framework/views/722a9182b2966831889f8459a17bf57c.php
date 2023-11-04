@@ -13,7 +13,7 @@
                         <h3>Who We Are <span>@ Adrah Studios</span></h3>
                         <p>Adrah Studios is a photography and videography company that specializes in capturing life’s most precious moments. They believe that every moment is worth capturing, and we’re passionate about helping their clients create lasting memories. We are located in Wellingborough, Northamptonshire, UK. We have a presence on different social media platforms.</p>
                         <p><b>Phone :</b>  07565241644
-                        <br /><b>E-mail :</b> photography@adrahstudios.com
+                        <br /><b>E-mail :</b> contact@adrahstudios.com
                         <br /><b>Skype :</b> @pozoartphoto
 
                         </p>
