@@ -45,7 +45,7 @@
                         <h6>Email Us Directly</h6>
                     </div>
                     <div class="coll">
-                        <h5>reachus@adrahstudios.com</h5>
+                        <h5>contact@adrahstudios.com</h5>
                     </div>
                 </div>
                 <div class="cont">
