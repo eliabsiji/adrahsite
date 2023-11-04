@@ -96,7 +96,7 @@
                         </div>
                         <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
                             <figure>
-                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/51.jpg')); ?>" data-caption="Adrah Studio Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/51.jpg')); ?>" alt="" /> </a>
+                                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/15.jpg')); ?>" data-caption="Adrah Studio Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/15.jpg')); ?>" alt="" /> </a>
                             </figure>
 
                         </div>

@@ -1,5 +1,4 @@
-@extends('master')
-@section('content')
+<?php $__env->startSection('content'); ?>
         <!-- Projects -->
         <section class="projects pt-130 mb-60">
             <div class="container">
@@ -72,4 +71,6 @@
                 </div>
             </div>
         </section>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\adrahsite\resources\views/pricing.blade.php ENDPATH**/ ?>

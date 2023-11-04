@@ -3,7 +3,7 @@
     <div class="container">
         <!-- Logo -->
         <div class="logo-wrapper">
-            <a class="logo" href="index.html"> <img src="<?php echo e(asset('html/images/logo.png')); ?>" class="logo-img" alt=""> </a>
+            <a class="logo" href="/"> <img src="<?php echo e(asset('html/images/logo.png')); ?>" class="logo-img" alt=""> </a>
 
         </div>
         <!-- Button -->
@@ -29,7 +29,7 @@
 
                     </ul>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="<?php echo e(route('gallery.video')); ?>">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?php echo e(route('contact')); ?>">Contact</a></li>
                 <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">More <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="<?php echo e(route('pricing')); ?>" class="dropdown-item"><span>Pricing</span></a></li>

@@ -1,5 +1,4 @@
-@extends('master')
-@section('content')
+<?php $__env->startSection('content'); ?>
         <!-- Gallery -->
         <div class="pozo-section pt-130">
             <div class="pozo-gallery">
@@ -37,4 +36,6 @@
                 </div>
             </div>
         </div>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\adrahsite\resources\views/video.blade.php ENDPATH**/ ?>
