@@ -80,7 +80,7 @@
                 <a class="d-block mb-4" data-fancybox="images" href="{{ asset('html/images/gallery/doyinanddapowedding/111.jpg') }}" data-caption="Adrah studios Photos"> <img class="img-fluid" src="{{ asset('html/images/gallery/doyinanddapowedding/111.jpg') }}" alt="" /> </a>
             </figure>
             <figure>
-                <a class="d-block mb-4" data-fancybox="images" href="{{ asset('html/images/gallery/doyinanddapowedding/1s.jpg') }}" data-caption="Adrah studios Photos"> <img class="img-fluid" src="{{ asset('html/images/gallery/doyinanddapowedding/1s.jpg') }}" alt="" /> </a>
+                <a class="d-block mb-4" data-fancybox="images" href="{{ asset('html/images/gallery/doyinanddapowedding/ls.jpg') }}" data-caption="Adrah studios Photos"> <img class="img-fluid" src="{{ asset('html/images/gallery/doyinanddapowedding/ls.jpg') }}" alt="" /> </a>
             </figure>
             <figure>
                 <a class="d-block mb-4" data-fancybox="images" href="{{ asset('html/images/gallery/doyinanddapowedding/99.jpg') }}" data-caption="Adrah Studios Photos"> <img class="img-fluid" src="{{ asset('html/images/gallery/doyinanddapowedding/99.jpg') }}" alt="" /> </a>
