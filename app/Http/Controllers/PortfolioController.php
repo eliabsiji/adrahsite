@@ -20,4 +20,9 @@ class PortfolioController extends Controller
 
         return view('portfolio-portraits');
     }
+
+    public function doyin_dapo(){
+
+        return view('doyin-dapo-weddings');
+    }
 }

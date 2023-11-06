@@ -20,7 +20,9 @@
             </div>
             <div class="col-md-4">
                 <p class="pozo-copyright">© 2023 <span>Adrah Studios</span> All right reserved.</p>
+                <p class="pozo-copyright">Developed and Powered By <span><a href="#">Qudroid Systems.</a></span> </p>
             </div>
+
         </div>
     </div>
 </footer>

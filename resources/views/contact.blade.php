@@ -11,15 +11,25 @@
                     <!-- Info -->
                     <div class="col-md-4 mb-60 animate-box" data-animate-effect="fadeInUp">
                         <h4>Adrah Studio</h4>
-                        <p>Our firm nisl sodales sit amet sapien idea placeran sodales oite. Vivamus ne miss rhoncus felis into Pozo Photography Agency. Donec arcu lectus, bibendum sed turpis ut, porta dictum leon.</p>
+                        <p>
+                           We are a photography and videography company that
+                            specializes in capturing life’s most precious moments.
+                            They believe that every moment is worth capturing, and
+                             we’re passionate about helping their clients create
+                             lasting memories. We are located in Wellingborough,
+                             Northamptonshire, UK. We have a presence on different
+                             social media platforms.
+                        </p>
                         <p><b>VAT :</b> USA002323065B06</p>
                     </div>
                     <!-- Location -->
                     <div class="col-md-4 mb-60 animate-box" data-animate-effect="fadeInUp">
                         <h4>Phone</h4>
-                        <p>+1 650-333-0000</p>
+                        <p>
+                            https://wa.me/08139619559?text=I%20want%20to%20make%20inquiry%20about service%20sale
+                        </p>
                         <h4>Email</h4>
-                        <p>photography@adrahstudio.com</p>
+                        <p>contact@adrahstudio.com</p>
                         <h4>Address</h4>
                         <p>1010 Broadway NY, New York 10001 USA</p>
                     </div>

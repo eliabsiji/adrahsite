@@ -11,11 +11,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h3>Who We Are <span>@ Adrah Studios</span></h3>
-                        <p>Adrah Studios is a photography and videography company that specializes in capturing life’s most precious moments. They believe that every moment is worth capturing, and we’re passionate about helping their clients create lasting memories. We are located in Wellingborough, Northamptonshire, UK. We have a presence on different social media platforms.</p>
-                        <p><b>Phone :</b>  07565241644
+                        <p>Adrah Studios is a photography and videography company that specializes in capturing life’s most precious moments. We believe that every moment is worth capturing, and we’re passionate about helping their clients create lasting memories. We are located in Wellingborough, Northamptonshire, UK. We have a presence on different social media platforms.</p>
+                        <p><b>Phone :<a href="tel:https://wa.me/447568271837?text=Hello,%20i%20want%20to%20make%20enquiry%20about%20your%20services">7568271837</a></b>
                         <br /><b>E-mail :</b> contact@adrahstudios.com
-                        <br /><b>Skype :</b> @pozoartphoto
-
                         </p>
                     </div>
                 </div>
@@ -47,7 +45,7 @@
                     <div class="col-md-6">
                         <div class="team-holder">
                             <div class="team-image-holder">
-                                <a href="team-details.html">
+                                <a href="<?php echo e(route('team2')); ?>l">
                                 <img src="<?php echo e(asset('html/images/gallery/54.jpg')); ?>" class="img-fluid" alt="">
                                 <div class="team-side-info">
                                     <h4 class="team-name">Simeon Owolabi </h4>

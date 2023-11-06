@@ -7,6 +7,9 @@
                     <div class="section-head col-md-12 text-center animate-box" data-animate-effect="fadeInUp">
                         <h4>Pricing Plan</h4>
                     </div>
+                    <div class="section-head col-md-12 text-center animate-box" data-animate-effect="fadeInUp">
+                        <h5><li><a href="#">Download Price Info here</a></li></h5>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
@@ -23,6 +26,7 @@
                                             <li>Photo Editing</li>
                                             <li>50 Digital Images</li>
                                             <li>Online Gallery</li>
+
                                         </ul>
                                     </li>
                                 </ul>

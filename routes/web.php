@@ -36,6 +36,11 @@ Route::get('/faqs',[FaqsController::class, 'index'])->name('faqs');
 Route::get('/imagegallery',[GalleryController::class, 'index'])->name('gallery.image');
 Route::get('/videogallery',[GalleryController::class, 'video'])->name('gallery.video');
 Route::get('/weddings',[PortfolioController::class, 'weddings'])->name('portfolio.weddings');
+
+//weddings...
+Route::get('/doyin-dapo-weddings',[PortfolioController::class, 'doyin_dapo'])->name('portfolio.doyin-dapo');
+
+
 Route::get('/events',[PortfolioController::class, 'events'])->name('portfolio.events');
 Route::get('/portraits',[PortfolioController::class, 'portraits'])->name('portfolio.portraits');
 Route::get('/contact',[ContactController::class, 'index'])->name('contact');
