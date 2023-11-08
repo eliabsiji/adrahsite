@@ -53,14 +53,14 @@
                         <h6>Call Us Directly</h6>
                     </div>
                     <div class="coll">
-                        <h5>855 100 4444 / 22</h5>
+                        <h5>+447565241644</h5>
                     </div>
                 </div>
                 <div class="cont">
                     <div class="coll">
                         <div class="social-icon">
                             <a href="https://www.facebook.com/adrahstudios"><i class="fa fa-facebook"></i></a>
-                            <a href="index.html"><i class="fa fa-twitter"></i></a>
+                            <a href="https://twitter.com/AdrahStudios"><i class="fa fa-twitter"></i></a>
                             <a href="https://www.instagram.com/adrahstudios/"><i class="fa fa-instagram"></i></a>
 
                     </div>

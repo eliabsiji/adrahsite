@@ -44,14 +44,15 @@
             <div class="wrap">
                 <div class="desc">
                     <div class="section-title mb-15">Contact Me</div>
-                    <p>I am professional photographer based on New York, creating dreamscapes with black, white and shades in-between.</p>
+                    <p> Simeon Owolabi is not just a videographer; he is a visual storyteller.
+                       .</p>
                 </div>
                 <div class="cont">
                     <div class="coll">
                         <h6>Email Us Directly</h6>
                     </div>
                     <div class="coll">
-                        <h5>reachus@adrahstudios.com</h5>
+                        <h5>contact@adrahstudios.com</h5>
                     </div>
                 </div>
                 <div class="cont">
@@ -59,14 +60,14 @@
                         <h6>Call Us Directly</h6>
                     </div>
                     <div class="coll">
-                        <h5>855 100 4444 / 22</h5>
+                        <h5>+447565241644</h5>
                     </div>
                 </div>
                 <div class="cont">
                     <div class="coll">
                         <div class="social-icon">
                             <a href="https://www.facebook.com/adrahstudios"><i class="fa fa-facebook"></i></a>
-                            <a href="index.html"><i class="fa fa-twitter"></i></a>
+                            <a href="https://twitter.com/AdrahStudios"><i class="fa fa-twitter"></i></a>
                             <a href="https://www.instagram.com/adrahstudios/"><i class="fa fa-instagram"></i></a>
 
                     </div>
