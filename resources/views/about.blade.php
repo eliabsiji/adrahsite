@@ -50,7 +50,7 @@
                                 <img src="{{ asset('html/images/gallery/54.jpg') }}" class="img-fluid" alt="">
                                 <div class="team-side-info">
                                     <h4 class="team-name">Simeon Owolabi </h4>
-                                    <h6 class="team-position">Lead Creative Director</h6>
+                                    <h6 class="team-position">Team Lead</h6>
                                 </div>
                                 </a>
                             </div>
