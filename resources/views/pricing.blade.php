@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="price-box animate-box" data-animate-effect="fadeInUp">
-                            <div class="price-box-inner img-grayscale" style="background-image: url(images/price/1.jpg)">
+                            <div class="price-box-inner img-grayscale" style="background-image: url(images/price/bg1.jpg)">
                                 <ul>
                                     <li class="pricing-title">
                                         <h3 class="pricing-pt-title">Standart</h3>
@@ -35,7 +35,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="price-box animate-box" data-animate-effect="fadeInUp">
-                            <div class="price-box-inner" style="background-image: url(images/price/2.jpg)">
+                            <div class="price-box-inner" style="background-image: url(images/price/bg2.jpg)">
                                 <ul>
                                     <li class="pricing-title">
                                         <h3 class="pricing-pt-title">Premium</h3>
@@ -55,7 +55,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="price-box animate-box" data-animate-effect="fadeInUp">
-                            <div class="price-box-inner" style="background-image: url(images/price/3.jpg)">
+                            <div class="price-box-inner" style="background-image: url(images/price/bg3.jpg)">
                                 <ul>
                                     <li class="pricing-title">
                                         <h3 class="pricing-pt-title">Platinum</h3>
