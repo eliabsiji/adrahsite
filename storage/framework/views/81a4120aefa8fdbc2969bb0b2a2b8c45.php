@@ -1,11 +1,10 @@
-@extends('master')
-@section('content')
+<?php $__env->startSection('content'); ?>
   <!-- Team Details -->
   <section class="team-box pt-180 mb-60">
     <div class="container">
         <div class="row">
         <div class="col-md-7 mb-30 animate-box" data-animate-effect="fadeInUp">
-            <div class="img mb-60"> <img src="{{ asset('html/images/slider/2.jpg') }}" class="img-fluid" alt=""> </div>
+            <div class="img mb-60"> <img src="<?php echo e(asset('html/images/slider/2.jpg')); ?>" class="img-fluid" alt=""> </div>
             <h4>Simeon Owolabi</h4>
             <p class="mb-30">
                 Simeon Owolabi is not just a videographer; he is a visual storyteller.
@@ -76,4 +75,6 @@
     </div>
     </div>
 </section>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\adrahsite\resources\views/team2-details.blade.php ENDPATH**/ ?>

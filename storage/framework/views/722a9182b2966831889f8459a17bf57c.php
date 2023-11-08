@@ -11,8 +11,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h3>Who We Are <span>@ Adrah Studios</span></h3>
-                        <p>Adrah Studios is a photography and videography company that specializes in capturing life’s most precious moments. We believe that every moment is worth capturing, and we’re passionate about helping their clients create lasting memories. We are located in Wellingborough, Northamptonshire, UK. We have a presence on different social media platforms.</p>
-                        <p><b>Phone :<a href="tel:https://wa.me/447568271837?text=Hello,%20i%20want%20to%20make%20enquiry%20about%20your%20services">7568271837</a></b>
+                        <p>Adrah Studios is a photography and videography company that specializes in capturing life’s most precious moments. We believe that every moment is worth capturing, and we’re passionate about helping their clients create lasting memories. We are located in31 Sandringham Close. NN8 2EJ, UK.
+                             We have a presence on different social media platforms.</p>
+                        <p><b>Phone :<a href="tel:https://wa.me/07565241644?text=Hello,%20i%20want%20to%20make%20enquiry%20about%20your%20services"> 07565241644</a></b>
                         <br /><b>E-mail :</b> contact@adrahstudios.com
                         </p>
                     </div>
@@ -45,11 +46,11 @@
                     <div class="col-md-6">
                         <div class="team-holder">
                             <div class="team-image-holder">
-                                <a href="<?php echo e(route('team2')); ?>l">
+                                <a href="<?php echo e(route('team2')); ?>">
                                 <img src="<?php echo e(asset('html/images/gallery/54.jpg')); ?>" class="img-fluid" alt="">
                                 <div class="team-side-info">
                                     <h4 class="team-name">Simeon Owolabi </h4>
-                                    <h6 class="team-position">Lead Creative Director</h6>
+                                    <h6 class="team-position">Team Lead</h6>
                                 </div>
                                 </a>
                             </div>
