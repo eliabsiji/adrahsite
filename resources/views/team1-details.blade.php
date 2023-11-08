@@ -34,16 +34,7 @@
                 </li>
             </ul>
             <!-- tab -->
-            <ul class="nav nav-tabs simpl-bord mt-60" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation"> <span class="nav-link active cursor-pointer" id="vision-tab" data-bs-toggle="tab" data-bs-target="#biography">Biography</span> </li>
 
-            </ul>
-            <div class="tab-content mb-60" id="myTabContent">
-                {{-- <div class="tab-pane fade show active" id="biography" role="tabpanel" aria-labelledby="vision-tab">
-                    <p>Biography utate ons amet ravida haretra nuam the duru miss uctus the drana accumsan justo aliquam sit amet auctor orci done vitaerisus duise nisan sapien silver sapien.</p>
-                </div> --}}
-
-            </div>
         </div>
         <div class="col-md-4 offset-md-1 animate-box" data-animate-effect="fadeInUp">
             <div class="wrap">
