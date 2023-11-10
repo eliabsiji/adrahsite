@@ -25,12 +25,12 @@
                     <div class="col-md-4 mb-60 animate-box" data-animate-effect="fadeInUp">
                         <h4>Phone</h4>
                         <p>
-                            <a href="tel:https://wa.me/07565241644?text=Hello,%20i%20want%20to%20make%20enquiry%20about%20your%20services"> 07565241644</a>
+                            <a href="tel:https://wa.me/07565241644?text=Hello,%20i%20want%20to%20make%20enquiry%20about%20your%20services"> +447565241644</a>
                         </p>
                         <h4>Email</h4>
                         <p>contact@adrahstudio.com</p>
                         <h4>Address</h4>
-                        <p>1010 Broadway NY, New York 10001 USA</p>
+                        <p> 31, Sandringham Close. Wellingborough.NN8 2EJ.</p>
                     </div>
                     <!-- Contact Form -->
                     <div class="col-md-4 mb-60 animate-box" data-animate-effect="fadeInUp">
