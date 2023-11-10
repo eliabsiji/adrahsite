@@ -26,7 +26,6 @@
                         <h4>Phone</h4>
                         <p>
                             <a href="https://wa.me/4407565241644?text=Hello,%20i%20want%20to%20make%20enquiry%20about%20your%20services"> +447565241644</a>
-
                         </p>
                         <h4>Email</h4>
                         <p>contact@adrahstudio.com</p>

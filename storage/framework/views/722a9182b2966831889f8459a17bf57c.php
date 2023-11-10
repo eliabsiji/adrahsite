@@ -13,7 +13,8 @@
                         <h3>Who We Are <span>@ Adrah Studios</span></h3>
                         <p>Adrah Studios is a photography and videography company that specializes in capturing life’s most precious moments. We believe that every moment is worth capturing, and we’re passionate about helping their clients create lasting memories. We are located in31 Sandringham Close. NN8 2EJ, UK.
                              We have a presence on different social media platforms.</p>
-                        <p><b>Phone :<a href="tel:https://wa.me/4407565241644?text=Hello,%20i%20want%20to%20make%20enquiry%20about%20your%20services"> 07565241644</a></b>
+                        <p><b>Phone :<a href="https://wa.me/4407565241644?text=Hello,%20i%20want%20to%20make%20enquiry%20about%20your%20services"> +447565241644</a></b>
+
                         <br /><b>E-mail :</b> contact@adrahstudios.com
                         </p>
                     </div>
