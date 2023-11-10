@@ -15,7 +15,7 @@
                             specializes in capturing life’s most precious moments.
                             They believe that every moment is worth capturing, and
                              we’re passionate about helping their clients create
-                             lasting memories. 31 Sandringham Close. NN8 2EJ.UK. We have a presence on different
+                             lasting memories.We have a presence on different
                              social media platforms.
                         </p>
 
@@ -24,7 +24,8 @@
                     <div class="col-md-4 mb-60 animate-box" data-animate-effect="fadeInUp">
                         <h4>Phone</h4>
                         <p>
-                            <a href="tel:https://wa.me/4407565241644?text=Hello,%20i%20want%20to%20make%20enquiry%20about%20your%20services"> +447565241644</a>
+                            <a href="https://wa.me/4407565241644?text=Hello,%20i%20want%20to%20make%20enquiry%20about%20your%20services"> +447565241644</a>
+
                         </p>
                         <h4>Email</h4>
                         <p>contact@adrahstudio.com</p>
