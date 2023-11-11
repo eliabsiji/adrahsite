@@ -36,6 +36,6 @@ class ContactController extends Controller
        Mail::to('contact@adrahstudios.com')->send(new ContactMail($details));
 
         return redirect()->back()
-                         ->with(['success' => 'Thank you for contacting us. we will contact you shortly.']);
+                         ->with(['success' => 'Thank you for contacting us.  A member of our team will reach out to you as soon as possible.']);
     }
 }
