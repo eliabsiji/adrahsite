@@ -1539,7 +1539,7 @@ ul.team-info-social li {
     background-image: url(../images/services/01.jpg);
 }
 .services .bg-2 {
-    background-image: url(../images/services/02.jpg);
+    background-image: url(../images/services/bg1.jpg);
 }
 .services .bg-3 {
     background-image: url(../images/services/03.jpg);
@@ -1548,10 +1548,10 @@ ul.team-info-social li {
     background-image: url(../images/services/04.jpg);
 }
 .services .bg-5 {
-    background-image: url(../images/services/05.jpg);
+    background-image: url(../images/services/bg2.jpg);
 }
 .services .bg-6 {
-    background-image: url(../images/services/06.jpg);
+    background-image: url(../images/services/bg3.jpg);
 }
 
 
