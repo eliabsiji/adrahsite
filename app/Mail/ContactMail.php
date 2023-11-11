@@ -12,6 +12,7 @@ use Illuminate\Queue\SerializesModels;
 class ContactMail extends Mailable
 {
     use Queueable, SerializesModels;
+
     public $details;
 
     /**
@@ -54,7 +55,8 @@ class ContactMail extends Mailable
 
     public function build()
     {
-        return $this->subject('Contact US-')
-                    ->markdown('vendor.mail.html.message');
+
+        return $this->from($this->details['email'])->subject(''.$this->details['subject'])
+                    ->markdown('vendor.mail.html.message')->with('details',$this->details);
     }
 }

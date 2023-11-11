@@ -29,7 +29,17 @@
 
 
 
-Testing Email...
+<h2>Hello, Adrah Studios, my name is <?php echo e($details['name']); ?></h2>
+<br>
+
+<strong>User details: </strong><br>
+<strong>Name: </strong><?php echo e($details['name']); ?> <br>
+<strong>Email: </strong><?php echo e($details['email']); ?> <br>
+<strong>Phone: </strong><?php echo e($details['phone']); ?> <br>
+<strong>Subject: </strong><?php echo e($details['subject']); ?> <br>
+<strong>Message: </strong><?php echo e($details['message']); ?> <br><br>
+
+Thank you
 
 <?php if(isset($subcopy)): ?>
  <?php $__env->slot('subcopy', null, []); ?> 
