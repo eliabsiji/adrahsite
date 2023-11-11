@@ -33,10 +33,18 @@
                     </div>
                     <!-- Contact Form -->
                     <div class="col-md-4 mb-60 animate-box" data-animate-effect="fadeInUp">
+                        <?php if(Session::has('success')): ?>
+                            <div class="alert alert-success">
+                                <?php echo e(Session::get('success')); ?>
+
+                            </div>
+                        <?php endif; ?>
                         <div>
                             <h4>Drop us a line!</h4>
                         </div>
-                        <form method="post" class="contact__form" action="#">
+                        <form  method="POST" action="<?php echo e(route('contact.us.store')); ?>" id="contactUSForm" class="contact__form"  enctype="multipart/form-data">
+                                <?php echo e(csrf_field()); ?>
+
                             <!-- Form message -->
                             <div class="row">
                                 <div class="col-12">
@@ -46,19 +54,35 @@
                             <!-- Form elements -->
                             <div class="row">
                                 <div class="col-md-12 form-group">
-                                    <input name="name" type="text" placeholder="Your Name *" required>
+                                    <input name="name" type="text" placeholder="Your Name *" required value="<?php echo e(old('name')); ?>">
+                                        <?php if($errors->has('name')): ?>
+                                            <span class="text-danger"><?php echo e($errors->first('name')); ?></span>
+                                        <?php endif; ?>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <input name="email" type="email" placeholder="Your Email *" required>
+                                    <input name="email" type="email" placeholder="Your Email *" value="<?php echo e(old('email')); ?>" required>
+                                        <?php if($errors->has('email')): ?>
+                                            <span class="text-danger"><?php echo e($errors->first('email')); ?></span>
+                                        <?php endif; ?>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <input name="phone" type="text" placeholder="Your Number *" required>
+                                    <input name="phone" type="text" placeholder="Your Number *" value="<?php echo e(old('phone')); ?>" required>
+                                    <?php if($errors->has('phone')): ?>
+                                      <span class="text-danger"><?php echo e($errors->first('phone')); ?></span>
+                                    <?php endif; ?>
                                 </div>
                                 <div class="col-md-12 form-group">
-                                    <input name="subject" type="text" placeholder="Subject *" required>
+                                    <input name="subject" type="text" placeholder="Subject *" value="<?php echo e(old('subject')); ?>" required>
+
+                                    <?php if($errors->has('subject')): ?>
+                                        <span class="text-danger"><?php echo e($errors->first('subject')); ?></span>
+                                     <?php endif; ?>
                                 </div>
                                 <div class="col-md-12 form-group">
-                                    <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *" required></textarea>
+                                    <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *" required><?php echo e(old('message')); ?></textarea>
+                                    <?php if($errors->has('message')): ?>
+                                        <span class="text-danger"><?php echo e($errors->first('message')); ?></span>
+                                     <?php endif; ?>
                                 </div>
                                 <div class="col-md-12">
                                     <input name="submit" type="submit" value="Send Message">

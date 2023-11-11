@@ -45,5 +45,9 @@ Route::get('/joan-davies-weddings',[PortfolioController::class, 'joan-davies'])-
 
 Route::get('/events',[PortfolioController::class, 'events'])->name('portfolio.events');
 Route::get('/portraits',[PortfolioController::class, 'portraits'])->name('portfolio.portraits');
-Route::get('/contact',[ContactController::class, 'index'])->name('contact');
+//Route::get('/contact',[ContactController::class, 'index'])->name('contact');
 // Auth::routes();
+
+
+Route::get('contact-us', [ContactController::class, 'index'])->name('contact');
+Route::post('contact-us', [ContactController::class, 'store'])->name('contact.us.store');

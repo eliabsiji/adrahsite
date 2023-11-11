@@ -17,7 +17,7 @@
                         <a class="pozo-social-link" href="https://www.behance.net/adrahstudios"> <span class="pozo-social-icon fa fa-behance"></span> </a>
                     </li>
                     <li class="pozo-social-icons-item">
-                        <a class="pozo-social-link" href="tel:https://wa.me/07565241644?text=Hello,%20i%20want%20to%20make%20enquiry%20about%20your%20services"><span class="pozo-social-icon fa fa-whatsapp"></span> </a>
+                        <a class="pozo-social-link" href="https://wa.me/4407565241644?text=Hello,%20i%20want%20to%20make%20enquiry%20about%20your%20services"><span class="pozo-social-icon fa fa-whatsapp"></span> </a>
                     </li>
                 </ul>
             </div>

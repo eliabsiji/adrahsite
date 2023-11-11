@@ -34,10 +34,16 @@
                     </div>
                     <!-- Contact Form -->
                     <div class="col-md-4 mb-60 animate-box" data-animate-effect="fadeInUp">
+                        @if(Session::has('success'))
+                            <div class="alert alert-success">
+                                {{Session::get('success')}}
+                            </div>
+                        @endif
                         <div>
                             <h4>Drop us a line!</h4>
                         </div>
-                        <form method="post" class="contact__form" action="#">
+                        <form  method="POST" action="{{ route('contact.us.store') }}" id="contactUSForm" class="contact__form"  enctype="multipart/form-data">
+                                {{ csrf_field() }}
                             <!-- Form message -->
                             <div class="row">
                                 <div class="col-12">
@@ -47,19 +53,35 @@
                             <!-- Form elements -->
                             <div class="row">
                                 <div class="col-md-12 form-group">
-                                    <input name="name" type="text" placeholder="Your Name *" required>
+                                    <input name="name" type="text" placeholder="Your Name *" required value="{{ old('name') }}">
+                                        @if ($errors->has('name'))
+                                            <span class="text-danger">{{ $errors->first('name') }}</span>
+                                        @endif
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <input name="email" type="email" placeholder="Your Email *" required>
+                                    <input name="email" type="email" placeholder="Your Email *" value="{{ old('email') }}" required>
+                                        @if ($errors->has('email'))
+                                            <span class="text-danger">{{ $errors->first('email') }}</span>
+                                        @endif
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <input name="phone" type="text" placeholder="Your Number *" required>
+                                    <input name="phone" type="text" placeholder="Your Number *" value="{{ old('phone') }}" required>
+                                    @if ($errors->has('phone'))
+                                      <span class="text-danger">{{ $errors->first('phone') }}</span>
+                                    @endif
                                 </div>
                                 <div class="col-md-12 form-group">
-                                    <input name="subject" type="text" placeholder="Subject *" required>
+                                    <input name="subject" type="text" placeholder="Subject *" value="{{ old('subject') }}" required>
+
+                                    @if ($errors->has('subject'))
+                                        <span class="text-danger">{{ $errors->first('subject') }}</span>
+                                     @endif
                                 </div>
                                 <div class="col-md-12 form-group">
-                                    <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *" required></textarea>
+                                    <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *" required>{{ old('message') }}</textarea>
+                                    @if ($errors->has('message'))
+                                        <span class="text-danger">{{ $errors->first('message') }}</span>
+                                     @endif
                                 </div>
                                 <div class="col-md-12">
                                     <input name="submit" type="submit" value="Send Message">

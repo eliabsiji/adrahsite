@@ -1,7 +1,7 @@
 (function ($) {
     "use strict";
-    
-    // Preloader 
+
+    // Preloader
     $(function () {
         var preloader = $('#Lfa-page-loading');
         if (preloader.length > 0) {
@@ -10,9 +10,9 @@
             });
         }
     });
-    
+
     var wind = $(window);
-    
+
     // ScrollIt
     $.scrollIt({
         upKey: 38, // key code to navigate to the next section
@@ -23,7 +23,7 @@
         onPageChange: null, // function(pageIndex) that is called when page is changed
         topOffset: -70 // offste (in px) for fixed top navigation
     });
-    
+
     // Navbar scrolling background
     wind.on("scroll", function () {
         var bodyScroll = wind.scrollTop(),
@@ -41,12 +41,12 @@
     $(".navbar-nav .dropdown-item a").on('click', function () {
         $(".navbar-collapse").removeClass("show");
     });
-    
+
     //Animation
     $(document).ready(function () {
         $('body.hero-anime').removeClass('hero-anime');
     });
-    
+
     // Animations
     var contentWayPoint = function () {
         var i = 0;
@@ -77,7 +77,7 @@
             offset: '85%'
         });
     };
-    
+
     // Document on load.
     $(function () {
         contentWayPoint();
@@ -95,7 +95,7 @@
             var self = this;
         },
     };
-    
+
     /* Swiper slider */
     if (window.innerWidth < 1200) {
         new Swiper(".swiper-container", {
@@ -123,7 +123,7 @@
             loop: !0
         })
     };
-    
+
     // Sections background image from data background
     var pageSection = $(".bg-img, section");
     pageSection.each(function (indx) {
@@ -131,7 +131,7 @@
             $(this).css("background-image", "url(" + $(this).data("background") + ")");
         }
     });
-    
+
     // Show more
     $(function () {
         $(document).on('click', '.pozo-more-trigger', function (event) {
@@ -174,40 +174,40 @@
         });
     });
 
-    // Contact Form
-    var form = $('.contact__form'),
-        message = $('.contact__msg'),
-        form_data;
-    // success function
-    function done_func(response) {
-        message.fadeIn().removeClass('alert-danger').addClass('alert-success');
-        message.text(response);
-        setTimeout(function () {
-            message.fadeOut();
-        }, 2000);
-        form.find('input:not([type="submit"]), textarea').val('');
-    }
-    // fail function
-    function fail_func(data) {
-        message.fadeIn().removeClass('alert-success').addClass('alert-success');
-        message.text(data.responseText);
-        setTimeout(function () {
-            message.fadeOut();
-        }, 2000);
-    }
-    form.submit(function (e) {
-        e.preventDefault();
-        form_data = $(this).serialize();
-        $.ajax({
-            type: 'POST',
-            url: form.attr('action'),
-            data: form_data
-        })
-        .done(done_func)
-        .fail(fail_func);
-    });
-    
-    
+    // // Contact Form
+    // var form = $('.contact__form'),
+    //     message = $('.contact__msg'),
+    //     form_data;
+    // // success function
+    // function done_func(response) {
+    //     message.fadeIn().removeClass('alert-danger').addClass('alert-success');
+    //     message.text(response);
+    //     setTimeout(function () {
+    //         message.fadeOut();
+    //     }, 2000);
+    //     form.find('input:not([type="submit"]), textarea').val('');
+    // }
+    // // fail function
+    // function fail_func(data) {
+    //     message.fadeIn().removeClass('alert-success').addClass('alert-success');
+    //     message.text(data.responseText);
+    //     setTimeout(function () {
+    //         message.fadeOut();
+    //     }, 2000);
+    // }
+    // form.submit(function (e) {
+    //     e.preventDefault();
+    //     form_data = $(this).serialize();
+    //     $.ajax({
+    //         type: 'POST',
+    //         url: form.attr('action'),
+    //         data: form_data
+    //     })
+    //     .done(done_func)
+    //     .fail(fail_func);
+    // });
+
+
     // Accordion Box (for Faqs)
     if ($(".accordion-box").length) {
         $(".accordion-box").on("click", ".acc-btn", function () {
@@ -228,7 +228,7 @@
             }
         });
     };
-    
+
     //  Scroll back to top
     var progressPath = document.querySelector('.progress-wrap path');
     var pathLength = progressPath.getTotalLength();
@@ -259,5 +259,5 @@
         jQuery('html, body').animate({ scrollTop: 0 }, duration);
         return false;
     })
-    
+
 })(jQuery);
