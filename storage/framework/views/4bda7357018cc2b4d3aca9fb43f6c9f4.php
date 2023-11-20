@@ -29,7 +29,7 @@
 
 
 <!-- Gallery -->
-<div class="pozo-section">
+<div class="pozo-section"  >
     <div class="container">
         <div class="row mb-4">
             <div class="section-head text-center col-md-12 animate-box" data-animate-effect="fadeInUp">
@@ -37,7 +37,7 @@
             </div>
             <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
                 <figure>
-                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/9.jpg')); ?>" data-caption="Adrah Studios Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/9.jpg')); ?>" alt="" /> </a>
+                    <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/9.jpg')); ?>" data-caption="Adrah Studios Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/9.jpg')); ?>" alt="" onContextMenu="return false;" /> </a>
                 </figure>
                 <figure>
                     <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/10.jpg')); ?>" data-caption="Adrah Studio Pictures"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/10.jpg')); ?>" alt="" /> </a>

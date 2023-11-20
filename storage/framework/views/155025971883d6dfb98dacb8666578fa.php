@@ -14,25 +14,19 @@
                 <li class="nav-item"><a class="nav-link active" href="<?php echo e(route('home')); ?>">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="<?php echo e(route('about')); ?>">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="<?php echo e(route('services')); ?>">Services</a></li>
-                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Gallery <i class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="<?php echo e(route('gallery.image')); ?>" class="dropdown-item"><span>Image Gallery</span></a></li>
-                        <li><a href="<?php echo e(route('gallery.video')); ?>" class="dropdown-item"><span>Video Gallery</span></a></li>
-                    </ul>
-                </li>
-
-                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Portfolio <i class="fa fa-angle-down"></i></a>
+                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button"
+                    data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Portfolio <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="<?php echo e(route('portfolio.weddings')); ?>" class="dropdown-item"><span>Weddings</span></a></li>
                         <li><a href="<?php echo e(route('gallery.video')); ?>" class="dropdown-item"><span>Events</span></a></li>
                         <li><a href="<?php echo e(route('gallery.video')); ?>" class="dropdown-item"><span>Portraits</span></a></li>
-
+                        <li><a href="<?php echo e(route('gallery.video')); ?>" class="dropdown-item"><span>Video Gallery</span></a></li>
                     </ul>
                 </li>
+                <li class="nav-item"><a class="nav-link" href="<?php echo e(route('pricing')); ?>">Pricing</a></li>
                 <li class="nav-item"><a class="nav-link" href="<?php echo e(route('contact')); ?>">Contact</a></li>
                 <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">More <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="<?php echo e(route('pricing')); ?>" class="dropdown-item"><span>Pricing</span></a></li>
                         <li><a href="<?php echo e(route('faqs')); ?>" class="dropdown-item"><span>Faq</span></a></li>
                     </ul>
                 </li>

@@ -18,7 +18,7 @@
     <link href="<?php echo e(asset('html/css/style.css')); ?>" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body onContextMenu="return false;">
     <!-- Page Preloader -->
     <div id="Lfa-page-loading" class="pozo-pageloading">
         <div class="pozo-pageloading-inner"> <img src="<?php echo e(asset('html/images/logo.png')); ?>" class="logo" alt=""> </div>
