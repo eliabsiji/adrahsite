@@ -54,7 +54,7 @@
                                     <li class="pricing-title">
                                         <h3 class="pricing-pt-title">Live Streamming</h3>
                                     </li>
-                                    <li class="pricing-prices"> <sup class="pricing-dolar">$</sup> <span class="pricing-price">Contact Us</span> </li>
+                                    <li class="pricing-prices"> <sup class="pricing-dolar"></sup> <span class="pricing-price">Contact Us</span> </li>
                                     <li class="pricing-content">
                                         {{-- <ul>
                                             <li>12 Hours Session</li>
