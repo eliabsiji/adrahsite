@@ -17,16 +17,12 @@
                             <div class="price-box-inner img-grayscale" style="background-image: url(images/price/bg1.jpg)">
                                 <ul>
                                     <li class="pricing-title">
-                                        <h3 class="pricing-pt-title">Standart</h3>
+                                        <h3 class="pricing-pt-title">Photography</h3>
                                     </li>
-                                    <li class="pricing-prices"> <sup class="pricing-dolar">$</sup> <span class="pricing-price">300</span> </li>
+                                    <li class="pricing-prices"> <sup class="pricing-dolar">$</sup> <span class="pricing-price">85</span> </li>
                                     <li class="pricing-content">
                                         <ul>
-                                            <li>3 Hours Session</li>
-                                            <li>Photo Editing</li>
-                                            <li>50 Digital Images</li>
-                                            <li>Online Gallery</li>
-
+                                            <li>1 Hour Session</li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -38,15 +34,13 @@
                             <div class="price-box-inner" style="background-image: url(images/price/bg2.jpg)">
                                 <ul>
                                     <li class="pricing-title">
-                                        <h3 class="pricing-pt-title">Premium</h3>
+                                        <h3 class="pricing-pt-title">Videography</h3>
                                     </li>
-                                    <li class="pricing-prices"> <sup class="pricing-dolar">$</sup> <span class="pricing-price">450</span> </li>
+                                    <li class="pricing-prices"> <sup class="pricing-dolar">$</sup> <span class="pricing-price">100</span> </li>
                                     <li class="pricing-content">
                                         <ul>
-                                            <li>6 Hours Session</li>
-                                            <li>Photo Editing</li>
-                                            <li>100 Digital Images</li>
-                                            <li>Online Gallery</li>
+                                            <li>1 Hour Session</li>
+
                                         </ul>
                                     </li>
                                 </ul>
@@ -58,20 +52,27 @@
                             <div class="price-box-inner" style="background-image: url(images/price/bg3.jpg)">
                                 <ul>
                                     <li class="pricing-title">
-                                        <h3 class="pricing-pt-title">Platinum</h3>
+                                        <h3 class="pricing-pt-title">Live Streamming</h3>
                                     </li>
-                                    <li class="pricing-prices"> <sup class="pricing-dolar">$</sup> <span class="pricing-price">750</span> </li>
+                                    <li class="pricing-prices"> <sup class="pricing-dolar">$</sup> <span class="pricing-price">Contact Us</span> </li>
                                     <li class="pricing-content">
-                                        <ul>
+                                        {{-- <ul>
                                             <li>12 Hours Session</li>
                                             <li>Photo Editing</li>
                                             <li>250 Digital Images</li>
                                             <li>Online Gallery</li>
-                                        </ul>
+                                        </ul> --}}
                                     </li>
                                 </ul>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="section-head col-md-12 text-center animate-box" data-animate-effect="fadeInUp">
+                        <h5><li><a href="#">Contact us for more information</a></li></h5>
                     </div>
                 </div>
             </div>
