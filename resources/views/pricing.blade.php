@@ -72,7 +72,7 @@
                 <div class="row">
 
                     <div class="section-head col-md-12 text-center animate-box" data-animate-effect="fadeInUp">
-                        <h5><li><a href="#">Contact us for more information</a></li></h5>
+                        <h5><li><a href="https://wa.me/4407565241644?text=Hello,%20i%20want%20to%20make%20enquiry%20about%20your%20services">Contact us for more enquiry </a></li></h5>
                     </div>
                 </div>
             </div>
