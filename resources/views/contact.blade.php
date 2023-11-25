@@ -8,7 +8,7 @@
                         <h2>Contact Us</h2>
                     </div>
 
-                    <!-- Info -->
+                    {{-- <!-- Info -->
                     <div class="col-md-4 mb-60 animate-box" data-animate-effect="fadeInUp">
                         <h4>Adrah Studio</h4>
                         <p>
@@ -20,7 +20,7 @@
                              social media platforms.
                         </p>
 
-                    </div>
+                    </div> --}}
                     <!-- Location -->
                     <div class="col-md-4 mb-60 animate-box" data-animate-effect="fadeInUp">
                         <h4>Phone</h4>
@@ -29,8 +29,8 @@
                         </p>
                         <h4>Email</h4>
                         <p>contact@adrahstudio.com</p>
-                        <h4>Address</h4>
-                        <p> 31, Sandringham Close. Wellingborough.NN8 2EJ.</p>
+                        {{-- <h4>Address</h4>
+                        <p> 31, Sandringham Close. Wellingborough.NN8 2EJ.</p> --}}
                     </div>
                     <!-- Contact Form -->
                     <div class="col-md-4 mb-60 animate-box" data-animate-effect="fadeInUp">
