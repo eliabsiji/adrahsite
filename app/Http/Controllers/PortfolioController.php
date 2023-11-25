@@ -28,6 +28,6 @@ class PortfolioController extends Controller
 
     public function pre_doyin_dapo(){
 
-        return view('doyin-dapo-weddings');
+        return view('doyin-dapo-preweddings');
     }
 }

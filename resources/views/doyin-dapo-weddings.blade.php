@@ -3,9 +3,9 @@
   <!-- Project Page -->
   <div class="post container pt-130">
     <div class="row">
-        <div class="col-md-12 animate-box" data-animate-effect="fadeInU"> <img class="img-fluid" src="{{ asset('html/images/gallery/doyinanddapowedding/777.jpg') }}" alt="">
+        <div class="col-md-12 animate-box" data-animate-effect="fadeInU"> <img class="img-fluid" src="{{ asset('html/images/gallery/doyinanddapowedding/l12.jpg') }}" alt="">
             <h2 class="mt-20"><span>Doyin and Dapo Wedding Shots</span></h2>
-            <p>Doyin and Dapo Weddin and Pre-wedding shots</p>
+            {{-- <p>Doyin and Dapo Weddin and Pre-wedding shots</p> --}}
 
             <br />
         </div>
@@ -89,7 +89,7 @@
     </div>
 
 
-    <div class="row mb-4">
+    {{-- <div class="row mb-4">
         <div class="col-6 col-md-6 animate-box" data-animate-effect="fadeInU">
             <figure>
                 <a class="d-block mb-4" data-fancybox="images" href="{{ asset('html/images/gallery/doyinanddapoprewedding/2.jpg') }}" data-caption="Adrah studios Photos"> <img class="img-fluid" src="{{ asset('html/images/gallery/doyinanddapoprewedding/2.jpg') }}" alt="" /> </a>
@@ -141,7 +141,7 @@
             </figure>
         </div>
 
-    </div>
+    </div> --}}
 
 
 </div>
