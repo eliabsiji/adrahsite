@@ -72,7 +72,7 @@
                                 </div>
 
                                 <div class="col-md-12 form-group">
-                                    <input name="instagram" type="text" placeholder="Your Instagram *" value="{{ old('instagram') }}" required>
+                                    <input name="instagram" type="text" placeholder="Your Instagram *" value="{{ old('instagram') }}" >
                                         @if ($errors->has('instagram'))
                                           <span class="text-danger">{{ $errors->first('instagram') }}</span>
                                         @endif
@@ -87,7 +87,7 @@
                                         <option> Event</option>
                                         <option> Other, specify</option>
                                       </select>
-                                      <input name="specify" type="text" placeholder="Specify other events *" value="{{ old('specify') }}" required>
+                                      <input name="specify" type="text" placeholder="Specify other events *" value="{{ old('specify') }}">
                                         @if ($errors->has('specify'))
                                           <span class="text-danger">{{ $errors->first('specify') }}</span>
                                         @endif
