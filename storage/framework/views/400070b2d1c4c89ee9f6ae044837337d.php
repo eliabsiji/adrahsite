@@ -35,6 +35,9 @@
 <strong>User details: </strong><br>
 <strong>Name: </strong><?php echo e($details['name']); ?> <br>
 <strong>Email: </strong><?php echo e($details['email']); ?> <br>
+<strong>Instagram Handle: </strong><?php echo e($details['instagram']); ?> <br>
+<strong>Event: </strong><?php echo e($details['event']); ?> <br>
+<strong>Others: </strong><?php echo e($details['specify']); ?> <br>
 <strong>Phone: </strong><?php echo e($details['phone']); ?> <br>
 <strong>Subject: </strong><?php echo e($details['subject']); ?> <br>
 <strong>Message: </strong><?php echo e($details['message']); ?> <br><br>

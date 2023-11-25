@@ -27,6 +27,9 @@ class ContactController extends Controller
         $details = [
             'name' => $request->name,
             'email' => $request->email,
+            'event' => $request->event,
+            'specify' => $request->specify,
+            'instagram' => $request->instagram,
             'phone' => $request->phone,
             'subject' => $request->subject,
             'message' => $request->message,

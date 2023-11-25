@@ -7,19 +7,7 @@
                         <h2>Contact Us</h2>
                     </div>
 
-                    <!-- Info -->
-                    <div class="col-md-4 mb-60 animate-box" data-animate-effect="fadeInUp">
-                        <h4>Adrah Studio</h4>
-                        <p>
-                           We are a photography and videography company that
-                            specializes in capturing life’s most precious moments.
-                            They believe that every moment is worth capturing, and
-                             we’re passionate about helping their clients create
-                             lasting memories.We have a presence on different
-                             social media platforms.
-                        </p>
-
-                    </div>
+                    
                     <!-- Location -->
                     <div class="col-md-4 mb-60 animate-box" data-animate-effect="fadeInUp">
                         <h4>Phone</h4>
@@ -28,8 +16,7 @@
                         </p>
                         <h4>Email</h4>
                         <p>contact@adrahstudio.com</p>
-                        <h4>Address</h4>
-                        <p> 31, Sandringham Close. Wellingborough.NN8 2EJ.</p>
+                        
                     </div>
                     <!-- Contact Form -->
                     <div class="col-md-4 mb-60 animate-box" data-animate-effect="fadeInUp">
@@ -73,7 +60,7 @@
                                 </div>
 
                                 <div class="col-md-12 form-group">
-                                    <input name="instagram" type="text" placeholder="Your Instagram *" value="<?php echo e(old('instagram')); ?>" required>
+                                    <input name="instagram" type="text" placeholder="Your Instagram " >
                                         <?php if($errors->has('instagram')): ?>
                                           <span class="text-danger"><?php echo e($errors->first('instagram')); ?></span>
                                         <?php endif; ?>
@@ -88,7 +75,7 @@
                                         <option> Event</option>
                                         <option> Other, specify</option>
                                       </select>
-                                      <input name="specify" type="text" placeholder="Specify other events *" value="<?php echo e(old('specify')); ?>" required>
+                                      <input name="specify" type="text" placeholder="Specify other events " value="<?php echo e(old('specify')); ?>">
                                         <?php if($errors->has('specify')): ?>
                                           <span class="text-danger"><?php echo e($errors->first('specify')); ?></span>
                                         <?php endif; ?>

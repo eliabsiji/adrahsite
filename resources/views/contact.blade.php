@@ -72,7 +72,7 @@
                                 </div>
 
                                 <div class="col-md-12 form-group">
-                                    <input name="instagram" type="text" placeholder="Your Instagram " value="{{ old('instagram') }}" >
+                                    <input name="instagram" type="text" placeholder="Your Instagram " >
                                         @if ($errors->has('instagram'))
                                           <span class="text-danger">{{ $errors->first('instagram') }}</span>
                                         @endif
