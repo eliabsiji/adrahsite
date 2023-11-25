@@ -19,7 +19,7 @@
                     </div>
                     <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
                         <div class="item">
-                            <div class="position-re o-hidden"> <img src="{{ asset('html/images/gallery/doyinanddapoprewedding/2.jpg') }}" alt=""> </div>
+                            <div class="position-re o-hidden"> <img src="{{ asset('html/images/gallery/doyinanddapoprewedding/l12.jpg') }}" alt=""> </div>
                             <div class="con"> <span class="category">
                                     <a href="{{ route('portfolio.pre-doyin-dapo') }}">02</a>
                                 </span>
