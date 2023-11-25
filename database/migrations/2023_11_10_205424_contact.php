@@ -15,6 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email');
+            $table->string('instagram');
+            $table->string('event');
+            $table->string('specify');
             $table->string('phone');
             $table->string('subject');
             $table->text('message');

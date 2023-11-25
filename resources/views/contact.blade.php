@@ -70,6 +70,33 @@
                                       <span class="text-danger">{{ $errors->first('phone') }}</span>
                                     @endif
                                 </div>
+
+                                <div class="col-md-12 form-group">
+                                    <input name="instagram" type="text" placeholder="Your Instagram *" value="{{ old('instagram') }}" required>
+                                        @if ($errors->has('instagram'))
+                                          <span class="text-danger">{{ $errors->first('instagram') }}</span>
+                                        @endif
+                                </div>
+
+                                <div class="col-md-12 form-group">What type of event are you enquiring about?
+                                    <select name="event" class="col-md-12 form-group" required>
+                                        <option> ...Select...</option>
+                                        <option> Wedding</option>
+                                        <option> Pre-wedding</option>
+                                        <option> Portrait Session</option>
+                                        <option> Event</option>
+                                        <option> Other, specify</option>
+                                      </select>
+                                      <input name="specify" type="text" placeholder="Specify other events *" value="{{ old('specify') }}" required>
+                                        @if ($errors->has('specify'))
+                                          <span class="text-danger">{{ $errors->first('specify') }}</span>
+                                        @endif
+                                        @if ($errors->has('event'))
+                                          <span class="text-danger">{{ $errors->first('event') }}</span>
+                                        @endif
+                                </div>
+
+
                                 <div class="col-md-12 form-group">
                                     <input name="subject" type="text" placeholder="Subject *" value="{{ old('subject') }}" required>
 

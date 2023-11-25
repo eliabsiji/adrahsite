@@ -14,6 +14,9 @@
 <strong>User details: </strong><br>
 <strong>Name: </strong>{{ $details['name'] }} <br>
 <strong>Email: </strong>{{ $details['email'] }} <br>
+<strong>Instagram Handle: </strong>{{ $details['instagram'] }} <br>
+<strong>Event: </strong>{{ $details['event'] }} <br>
+<strong>Others: </strong>{{ $details['specify'] }} <br>
 <strong>Phone: </strong>{{ $details['phone']}} <br>
 <strong>Subject: </strong>{{ $details['subject'] }} <br>
 <strong>Message: </strong>{{ $details['message'] }} <br><br>

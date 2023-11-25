@@ -10,7 +10,7 @@ use App\Mail\ContactMail;
 class Contact extends Model
 {
     use HasFactory;
-    public $fillable = ['name', 'email', 'phone', 'subject', 'message'];
+    public $fillable = ['name', 'email', 'instagram','event','phone', 'subject', 'message'];
 
     public static function boot() {
 

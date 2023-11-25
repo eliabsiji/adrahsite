@@ -71,6 +71,33 @@
                                       <span class="text-danger"><?php echo e($errors->first('phone')); ?></span>
                                     <?php endif; ?>
                                 </div>
+
+                                <div class="col-md-12 form-group">
+                                    <input name="instagram" type="text" placeholder="Your Instagram *" value="<?php echo e(old('instagram')); ?>" required>
+                                        <?php if($errors->has('instagram')): ?>
+                                          <span class="text-danger"><?php echo e($errors->first('instagram')); ?></span>
+                                        <?php endif; ?>
+                                </div>
+
+                                <div class="col-md-12 form-group">What type of event are you enquiring about?
+                                    <select name="event" class="col-md-12 form-group" required>
+                                        <option> ...Select...</option>
+                                        <option> Wedding</option>
+                                        <option> Pre-wedding</option>
+                                        <option> Portrait Session</option>
+                                        <option> Event</option>
+                                        <option> Other, specify</option>
+                                      </select>
+                                      <input name="specify" type="text" placeholder="Specify other events *" value="<?php echo e(old('specify')); ?>" required>
+                                        <?php if($errors->has('specify')): ?>
+                                          <span class="text-danger"><?php echo e($errors->first('specify')); ?></span>
+                                        <?php endif; ?>
+                                        <?php if($errors->has('event')): ?>
+                                          <span class="text-danger"><?php echo e($errors->first('event')); ?></span>
+                                        <?php endif; ?>
+                                </div>
+
+
                                 <div class="col-md-12 form-group">
                                     <input name="subject" type="text" placeholder="Subject *" value="<?php echo e(old('subject')); ?>" required>
 
