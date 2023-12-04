@@ -58,9 +58,7 @@
             <figure>
                 <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/doyinanddapoprewedding/44.jpg')); ?>" data-caption="Adrah studios Photos"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/doyinanddapoprewedding/44.jpg')); ?>" alt="" /> </a>
             </figure>
-            <figure>
-                <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/doyinanddapoprewedding/88.jpg')); ?>" data-caption="Adrah studios Photos"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/doyinanddapowedding/88.jpg')); ?>" alt="" /> </a>
-            </figure>
+            
             <figure>
                 <a class="d-block mb-4" data-fancybox="images" href="<?php echo e(asset('html/images/gallery/doyinanddapoprewedding/55.jpg')); ?>" data-caption="Adrah Studios Photos"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/doyinanddapoprewedding/55.jpg')); ?>" alt="" /> </a>
             </figure>

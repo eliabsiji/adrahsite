@@ -38,7 +38,29 @@
                         </div>
                     </div>
 
+                    <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
+                        <div class="item">
+                            <div class="position-re o-hidden"> <img src="{{ asset('html/images/gallery/isiwatandkazeem/9.jpg') }}" alt=""> </div>
+                            <div class="con"> <span class="category">
+                                    <a href="{{ route('portfolio.isiwat-kazeem') }}">4</a>
+                                </span>
+                                <h5><a href="{{ route('portfolio.isiwat-kazeem') }}">Isiwat and Kazeem</a></h5> <a href="{{ route('portfolio.isiwat-kazeem') }}"><i class="fa fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
+                        <div class="item">
+                            <div class="position-re o-hidden"> <img src="{{ asset('html/images/gallery/oliviaandjudah/4.jpg') }}" alt=""> </div>
+                            <div class="con"> <span class="category">
+                                    <a href="{{ route('portfolio.olivia-judah') }}">5</a>
+                                </span>
+                                <h5><a href="{{ route('portfolio.olivia-judah') }}">Olivia and Judah</a></h5> <a href="{{ route('portfolio.olivia-judah') }}"><i class="fa fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
 
             </div>
         </section>

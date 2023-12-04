@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-md-12 animate-box" data-animate-effect="fadeInU"> <img class="img-fluid" src="<?php echo e(asset('html/images/gallery/doyinanddapowedding/l12.jpg')); ?>" alt="">
             <h2 class="mt-20"><span>Doyin and Dapo Wedding Shots</span></h2>
-            <p>Doyin and Dapo Weddin and Pre-wedding shots</p>
+            
 
             <br />
         </div>

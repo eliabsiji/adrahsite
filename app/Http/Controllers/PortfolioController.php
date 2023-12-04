@@ -30,4 +30,19 @@ class PortfolioController extends Controller
 
         return view('doyin-dapo-preweddings');
     }
+
+    public function isiwat_kazeem(){
+
+        return view('isiwat-kazeem');
+    }
+
+    public function olivia_judah(){
+
+        return view('olivia-judah');
+    }
+
+    public function joan_davies(){
+
+        return view('joan-davies');
+    }
 }

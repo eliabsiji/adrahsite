@@ -40,8 +40,9 @@ Route::get('/weddings',[PortfolioController::class, 'weddings'])->name('portfoli
 //weddings...
 Route::get('/doyin-dapo-wedding',[PortfolioController::class, 'doyin_dapo'])->name('portfolio.doyin-dapo');
 Route::get('/doyin-dapo-prewedding',[PortfolioController::class, 'pre_doyin_dapo'])->name('portfolio.pre-doyin-dapo');
-Route::get('/joan-davies-weddings',[PortfolioController::class, 'joan-davies'])->name('portfolio.joan-davies');
-
+Route::get('/joan-davies-weddings',[PortfolioController::class, 'joan_davies'])->name('portfolio.joan-davies');
+Route::get('/isiwat-kazeem-weddings',[PortfolioController::class, 'isiwat_kazeem'])->name('portfolio.isiwat-kazeem');
+Route::get('/olivia-judah-weddings',[PortfolioController::class, 'olivia_judah'])->name('portfolio.olivia-judah');
 
 Route::get('/events',[PortfolioController::class, 'events'])->name('portfolio.events');
 Route::get('/portraits',[PortfolioController::class, 'portraits'])->name('portfolio.portraits');
