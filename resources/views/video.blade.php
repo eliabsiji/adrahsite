@@ -13,8 +13,9 @@
                             <a data-fancybox="" href="https://www.youtube.com/watch?v=ybso7mzV2hY"> <img class="img-fluid" src="images/gallery/08.jpg" alt="">
                                 <p><span class="fa fa-play"></span></p>
                             </a>
-                            <h5></h5>
+                            <h5>Youtube Video (Popup)</h5>
                         </div>
+
                     </div>
                 </div>
             </div>
