@@ -23,7 +23,7 @@
                         <li><a href="<?php echo e(route('gallery.video')); ?>" class="dropdown-item"><span>Video Gallery</span></a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="<?php echo e(route('pricing')); ?>">Pricing</a></li>
+                
                 <li class="nav-item"><a class="nav-link" href="<?php echo e(route('contact')); ?>">Contact</a></li>
                 <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">More <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
