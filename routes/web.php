@@ -46,6 +46,16 @@ Route::get('/olivia-judah-weddings',[PortfolioController::class, 'olivia_judah']
 
 Route::get('/events',[PortfolioController::class, 'events'])->name('portfolio.events');
 Route::get('/portraits',[PortfolioController::class, 'portraits'])->name('portfolio.portraits');
+
+//portraits...
+Route::get('/soyinka',[PortfolioController::class, 'seun_soyinka'])->name('portfolio.soyinka');
+Route::get('/peejay',[PortfolioController::class, 'peejay'])->name('portfolio.peejay');
+Route::get('/korede',[PortfolioController::class, 'korede'])->name('portfolio.korede');
+Route::get('/ogunrinade',[PortfolioController::class, 'ogunride'])->name('portfolio.ogunrinade');
+Route::get('/jayesimi',[PortfolioController::class, 'jayesimi'])->name('portfolio.jayesimi');
+Route::get('/busayo',[PortfolioController::class, 'busayo'])->name('portfolio.busayo');
+
+
 //Route::get('/contact',[ContactController::class, 'index'])->name('contact');
 // Auth::routes();
 

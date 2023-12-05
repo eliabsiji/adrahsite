@@ -18,8 +18,8 @@
                     data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Portfolio <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="<?php echo e(route('portfolio.weddings')); ?>" class="dropdown-item"><span>Weddings</span></a></li>
-                        <li><a href="<?php echo e(route('gallery.video')); ?>" class="dropdown-item"><span>Events</span></a></li>
-                        <li><a href="<?php echo e(route('gallery.video')); ?>" class="dropdown-item"><span>Portraits</span></a></li>
+                        <li><a href="<?php echo e(route('portfolio.events')); ?>" class="dropdown-item"><span>Events</span></a></li>
+                        <li><a href="<?php echo e(route('portfolio.portraits')); ?>" class="dropdown-item"><span>Portraits</span></a></li>
                         <li><a href="<?php echo e(route('gallery.video')); ?>" class="dropdown-item"><span>Video Gallery</span></a></li>
                     </ul>
                 </li>

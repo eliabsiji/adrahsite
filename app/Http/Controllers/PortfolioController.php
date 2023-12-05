@@ -16,7 +16,7 @@ class PortfolioController extends Controller
         return view('portfolio-events');
     }
 
-    public function portrait(){
+    public function portraits(){
 
         return view('portfolio-portraits');
     }
@@ -44,5 +44,30 @@ class PortfolioController extends Controller
     public function joan_davies(){
 
         return view('joan-davies');
+    }
+
+    public function seun_soyinka(){
+
+        return view('soyinka');
+    }
+    public function peejay(){
+
+        return view('peejay');
+    }
+    public function korede(){
+
+        return view('korede');
+    }
+    public function ogunride(){
+
+        return view('ogunride');
+    }
+    public function jayesimi(){
+
+        return view('jayesimi');
+    }
+    public function busayo(){
+
+        return view('busayo');
     }
 }
